@@ -1,7 +1,10 @@
+<<<<<<< HEAD
 
 # Created by https://www.gitignore.io/api/node
 
 ### Node ###
+=======
+>>>>>>> 38b4ba3c8a42a93f76fdda02f0f8d3891d838b17
 # Logs
 logs
 *.log
@@ -61,5 +64,3 @@ typings/
 # dotenv environment variables file
 .env
 
-
-# End of https://www.gitignore.io/api/node
