@@ -1,7 +1,7 @@
 const serve = require('koa-static');
 const Koa = require('koa');
 const bodyParser = require('koa-bodyparser');
-const Routes = require('./routers');
+const Routes = require('./routers/index');
 const views = require('koa-views');
 
 
@@ -15,7 +15,7 @@ app.use(views(`${__dirname}/public`, {
     }
 }));
 
-const port = 3002;
+const port = 3000;
 
 
 async function init(ctx, next) {

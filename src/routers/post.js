@@ -4,7 +4,7 @@ const router = new Router({
     prefix: '/post'
 });
 
-router.get('/:postId', async function(ctx) {
+router.get('/', async function(ctx) {
     await ctx.render('post');
 });
 

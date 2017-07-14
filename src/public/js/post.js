@@ -71,10 +71,8 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-
-$(document).ready(function () {
-    alert("hello");
+$(document).ready(function(){
+alert("hello");
 });
 
 /***/ })

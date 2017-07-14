@@ -3,7 +3,7 @@
  */
 
 const env = process.env.NODE_ENV || 'development';
-const link = `../../shared/configs/${env}`;
+const link = `../configs/${env}`;
 const redisConfig = require(link).redisConnection;
 const Redis = require('ioredis');
 const event = require('ioredis-eventemitter');
